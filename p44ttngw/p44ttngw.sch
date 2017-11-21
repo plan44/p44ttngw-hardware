@@ -1188,8 +1188,8 @@ Connection ~ 9150 5600
 Wire Wire Line
 	9500 5400 9500 5800
 Connection ~ 9500 5600
-Text Notes 10400 5100 0    60   ~ 0
-Alternatively:\nMCP1826S\nwith input C\n >=4.7uF\n (more allowed)\nand output C\n >=1uF\n (more allowed)
+Text Notes 9950 4750 0    60   ~ 0
+USB micro pwr only:\n- no U2, D8, C4, C5\n- U3: use MCP1826S\n- C13 >=4.7uF\n- C15 >=1uF
 Text Notes 8500 6100 0    60   ~ 0
 with R783.3:\nC13 >=10uF\nC12 opt\nC14,C15 opt
 Wire Wire Line
@@ -1407,7 +1407,7 @@ Connection ~ 8600 2850
 Wire Wire Line
 	9300 2950 9500 2950
 Wire Wire Line
-	9500 2950 9500 3350
+	9500 2950 9500 3900
 Wire Wire Line
 	9500 3250 9300 3250
 Wire Wire Line
@@ -1631,4 +1631,18 @@ NoConn ~ 6700 2650
 NoConn ~ 4750 2450
 NoConn ~ 4750 950 
 NoConn ~ 4750 1050
+$Comp
+L GND #PWR?
+U 1 1 5A147972
+P 9500 3900
+F 0 "#PWR?" H 9500 3650 50  0001 C CNN
+F 1 "GND" H 9500 3750 50  0000 C CNN
+F 2 "" H 9500 3900 50  0000 C CNN
+F 3 "" H 9500 3900 50  0000 C CNN
+	1    9500 3900
+	1    0    0    -1  
+$EndComp
+Connection ~ 9500 3350
+Text Notes 8050 4550 0    60   ~ 0
+PPoE only:\n- no J6, D5, D7\n- 0Ohm for D8
 $EndSCHEMATC
