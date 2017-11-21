@@ -1,4 +1,4 @@
-update=2017 June 11, Sunday 18:44:30
+update=2017 November 21, Tuesday 15:21:58
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=/Users/luz/Documents/plan44/OpenSourceWork-github-plan44/plan44-kicad
@@ -73,3 +63,13 @@ LibName31=leds
 LibName32=mechanical
 LibName33=switches
 LibName34=plan44
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
